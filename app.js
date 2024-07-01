@@ -6,12 +6,6 @@ const app = express();
 app.use(express.json());
 
 
-
-// DB Connection
-const conn = require("./db/conn")
-
-conn()
-
 app.use((req, res, next) => {
 
   res.header("Access-Control-Allow-Origin", "*")
@@ -26,6 +20,14 @@ app.use((req, res, next) => {
 
 
 })
+
+
+// DB Connection
+const conn = require("./db/conn")
+
+conn()
+
+
 
 // Routes
 const routes = require("./routes/router")
