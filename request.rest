@@ -1,0 +1,112 @@
+POST http://localhost:3000/api/provas
+Content-Type: application/json
+
+{
+        "nome": "Amanda Silva",
+        "turma": "1º B ADM INT",
+        "serie": "2º ANO",
+        "notaPortugues": 10.0,
+        "notaMatematica": 7.5,
+        "q1": "C",
+        "q2": "B",
+        "q3": "B",
+        "q4": "B",
+        "q5": "B",
+        "q6": "B",
+        "q7": "B",
+        "q8": "B",
+        "q9": "B",
+        "q10": "B",
+        "q11": "B",
+        "q12": "B",
+        "q13": "B",
+        "q14": "B",
+        "q15": "B",
+        "q16": "B",
+        "q17": "B",
+        "q18": "B",
+        "q19": "B",
+        "q20": "B",
+        "q21": "B",
+        "q22": "B",
+        "q23": "B",
+        "q24": "B",
+        "q25": "B",
+        "q26": "B",
+        "q27": "B",
+        "q28": "B",
+        "q29": "B",
+        "q30": "B",
+        "q31": "B",
+        "q32": "B",
+        "q33": "B",
+        "q34": "B",
+        "q35": "B",
+        "q36": "B",
+        "q37": "B",
+        "q38": "B",
+        "q39": "B",
+        "q40": " "
+}
+
+###
+
+GET http://localhost:3000/api/provas
+
+###
+GET http://localhost:3000/api/provas/66808d983b2d451fedd0bfa3
+
+###
+DELETE http://localhost:3000/api/provas/66808d983b2d451fedd0bfa2
+
+###
+POST http://localhost:3000/api/provas3
+Content-Type: application/json
+
+{
+        "nome": "Amanda Silva",
+        "turma": "1º B ADM INT",
+        "serie": "2º ANO",
+        "notaPortugues": 10.0,
+        "notaMatematica": 7.5,
+        "q1": "C",
+        "q2": "B",
+        "q3": "B",
+        "q4": "B",
+        "q5": "B",
+        "q6": "B",
+        "q7": "B",
+        "q8": "B",
+        "q9": "B",
+        "q10": "B",
+        "q11": "B",
+        "q12": "B",
+        "q13": "B",
+        "q14": "B",
+        "q15": "B",
+        "q16": "B",
+        "q17": "B",
+        "q18": "B",
+        "q19": "B",
+        "q20": "B",
+        "q21": "B",
+        "q22": "B",
+        "q23": "B",
+        "q24": "B",
+        "q25": "B",
+        "q26": "B",
+        "q27": "B",
+        "q28": "B",
+        "q29": "B",
+        "q30": "B",
+        "q31": "B",
+        "q32": "B",
+        "q33": "B",
+        "q34": "B",
+        "q35": "B",
+        "q36": "B",
+        "q37": "B",
+        "q38": "B",
+        "q39": "B",
+        "q40": " "
+}
