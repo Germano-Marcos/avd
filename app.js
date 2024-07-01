@@ -32,7 +32,7 @@ const routes = require("./routes/router")
 
 app.use("/api", routes)
 
-app.listen(5103, function () {
+app.listen(5173, function () {
   console.log("Servidor Online!");
 });
 
